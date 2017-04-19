@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Ultimate Navigation bar</title>
     <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/login.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   </head>
@@ -301,10 +302,19 @@
       </nav>
 
       <div class="main_content">
-
+        <div class="login">
+          <div class="login_content">
+            <div>
+              <input id="email" type="text" name="email" placeholder="Email address">
+              <input id="password" type="password" name="password" placeholder="Lösernord">
+              <button id="login" onclick="login()">LOGGA IN</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <script src="./js/searchResize.js"></script>
+    <script src="./js/login.js"></script>
   </body>
 </html>
